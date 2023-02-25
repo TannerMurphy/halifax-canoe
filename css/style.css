@@ -157,12 +157,16 @@ footer {
 
 @media screen and (max-width: 800px){
 	.centered-title, header.h1 {
-		font-size: 8vw;
+		font-size: 10vw;
 	}
 	header > h1 {
 		font-size: 5vw;
 	}
-	main > h2, h3, h4, p {
+	main > h3, h4, p {
 		font-size:3vw;
 	}
+	h2 {
+		font-size:7vw;
+	}
 }
+
