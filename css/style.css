@@ -124,7 +124,7 @@ footer {
     position: relative;
 	max-width: 1200px;
 }
-
+/* Title text */
 .centered-title {
     position: absolute;
     top: 50%;
@@ -135,13 +135,13 @@ footer {
     color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
-
+/* Banner image */
 .banner {
     max-width: 100%;
     text-align: center;
 	box-shadow: 0 -6px 15px 5px rgba(0,0,0,0.8);
 }
-
+/* Media Query adjustments depending on the width of the screen */
 @media screen and (max-width: 425px) {
 	header h1 {
 		font-size: 16px;
